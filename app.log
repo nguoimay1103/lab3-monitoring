@@ -1,0 +1,20 @@
+2025-06-04 14:27:02,046 - INFO - Received request for prediction
+2025-06-04 14:27:03,816 - INFO - Predicted class: paper
+2025-06-04 14:45:54,373 - INFO - Received request for prediction
+2025-06-04 14:45:55,652 - INFO - Predicted class: paper
+2025-06-04 14:46:15,196 - INFO - Received request for prediction
+2025-06-04 14:46:15,269 - INFO - Predicted class: paper
+2025-06-04 14:53:54,953 - INFO - Received request for prediction
+2025-06-04 14:53:56,063 - INFO - Predicted class: paper
+2025-06-04 15:00:30,684 - INFO - Received request for prediction
+2025-06-04 15:00:31,320 - INFO - Predicted class: paper
+2025-06-04 15:06:44,625 - INFO - Received request for prediction
+2025-06-04 15:06:45,549 - INFO - Predicted class: paper
+2025-06-04 15:08:26,632 - INFO - Received request for prediction
+2025-06-04 15:08:27,005 - INFO - Predicted class: metal
+2025-06-04 16:19:11,876 - INFO - Received request for prediction
+2025-06-04 16:19:12,897 - INFO - Predicted class: paper
+2025-06-04 16:38:31,736 - INFO - Received request for prediction
+2025-06-04 16:38:32,686 - INFO - Predicted class: cardboard
+2025-06-04 16:44:46,169 - INFO - Received request for prediction
+2025-06-04 16:44:46,709 - INFO - Predicted class: cardboard
