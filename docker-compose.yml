@@ -8,6 +8,7 @@ services:
       - "8000:8000"
     volumes:
       - ./:/app
+      - ./app.log:/app/app.log
     environment:
       - PYTHONUNBUFFERED=1
     restart: unless-stopped
@@ -21,6 +22,7 @@ services:
       - "9090:9090"
     volumes:
       - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./alerts.yml:/etc/prometheus/alerts.yml
     command:
       - '--config.file=/etc/prometheus/prometheus.yml'
       - '--web.listen-address=0.0.0.0:9090'
@@ -52,9 +54,46 @@ services:
     networks:
       - monitoring
 
+  node-exporter:
+    image: prom/node-exporter:latest
+    container_name: lab3-node-exporter
+    ports:
+      - "9100:9100"
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.sysfs=/host/sys'
+      - '--path.rootfs=/rootfs'
+      - '--collector.diskstats'
+      - '--collector.filesystem'
+      - '--collector.netdev'
+    restart: unless-stopped
+    networks:
+      - monitoring
+
+  fluentd:
+    image: fluent/fluentd:v1.14-debian-1
+    container_name: lab3-fluentd
+    ports:
+      - "5140:5140"
+      - "24224:24224"
+      - "24224:24224/udp"
+    volumes:
+      - ./fluentd.conf:/fluentd/etc/fluent.conf
+      - ./app.log:/app.log
+      - /var/log:/var/log
+      - ./fluentd-logs:/var/log/fluentd
+    restart: unless-stopped
+    networks:
+      - monitoring
+
 networks:
   monitoring:
     driver: bridge
 
 volumes:
   grafana-data:
+  fluentd-logs:
