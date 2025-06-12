@@ -1,3 +1,31 @@
+
+<p align="center">
+  <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" style="border: 5;">
+    <img src="https://i.imgur.com/WmMnSRt.png" alt="Trường Đại học Công nghệ Thông tin | University of Information Technology">
+  </a>
+</p>
+
+<!-- Title -->
+<h1 align="center"><b>CS317.P21 - PHÁT TRIỂN VÀ VẬN HÀNH HỆ THỐNG MÁY HỌC</b></h1>
+
+## Môn học 
+<a name="gioithieumonhoc"></a>
+* *Môn học*: Phát triển và vận hành hệ thống máy học
+* *Mã lớp*: CS317.P21
+* *Year*: 2024-2025
+## Giáo viên
+<a name="giangvien"></a>
+* *Đỗ Văn Tiến* - tiendv@uit.edu.vn
+* *Lê Trần Trọng Khiêm* - khiemltt@uit.edu.vn
+
+## Danh sách thành viên:
+| Họ và tên      | MSSV | Lớp     |
+| :----:        |    :----:   |          :----: |
+| [Phạm Huỳnh Nhật Tân](https://github.com/tanphn?tab=repositories)      | 22521309       | CS317.P21  |
+| [Phạm Nguyễn Anh Tuấn](https://github.com/nguoimay1103?tab=repositories)   | 22521610        | CS317.P21     |
+| [Nguyễn Dương Quốc Thắng](https://github.com/solohito?tab=repositories)   | 22521332       | CS317.P21     |
+| [Ngô Nguyễn Nam Trung](https://github.com/namtrunguit?tab=repositories)   | 22521559      | CS317.P21     |
+
 # 🚀 Lab 3 - Giám sát và Ghi log cho FastAPI
 
 Kho lưu trữ này triển khai hệ thống **giám sát** và **ghi log** cho ứng dụng **FastAPI**, bao gồm các công cụ:
