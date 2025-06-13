@@ -61,26 +61,26 @@ Kho lưu trữ này triển khai hệ thống **giám sát** và **ghi log** cho
   git clone https://github.com/nguoimay1103/lab3-monitoring.git
   cd lab3-monitoring
   ```
-3. **Cài đặt Docker và Docker Compose**
+2. **Cài đặt Docker và Docker Compose**
   - Trên Windows: Tải và cài đặt từ Docker Desktop.
   Kiểm tra cài đặt:
   ```bash
   docker --version
   docker-compose --version
   ```
-5. **Chạy Bộ Công cụ Giám sát**
+3. **Chạy Bộ Công cụ Giám sát**
   - Sử dụng Docker Compose để khởi động tất cả các dịch vụ (Prometheus, Grafana, Alertmanager, Node-exporter, Fluentd, và API):
   ```bash
   docker-compose up -d
   ```
-6. **Truy cập Công cụ**
+4. **Truy cập Công cụ**
 
   - Fastapi: http://localhost:8000/docs
   - Prometheus: http://localhost:9090
   - Grafana: http://localhost:3000 (Thông tin đăng nhập mặc định: admin/admin)
   - Alertmanager: http://localhost:9093
   
-7. **Kiểm tra Dịch vụ**
+5. **Kiểm tra Dịch vụ**
   - Kiểm tra trạng thái container:
   ```bash
   docker ps -a
