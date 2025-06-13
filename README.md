@@ -39,7 +39,6 @@ Kho lưu trữ này triển khai hệ thống **giám sát** và **ghi log** cho
 ## 📚 Mục lục
 
 - [🔧 Cài đặt và Thiết lập Công cụ - Thiết lập Môi trường và Chạy Code](#-cài-đặt-và-thiết-lập-công-cụ)
-- [⚙️ Thiết lập Môi trường và Chạy Code](#️-thiết-lập-môi-trường-và-chạy-code)
 - [🧪 Sử dụng](#-sử-dụng)
 - [⚠️ Lưu ý](#️-lưu-ý)
 
