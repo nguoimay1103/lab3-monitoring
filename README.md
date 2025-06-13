@@ -137,4 +137,6 @@ Kho lưu trữ này triển khai hệ thống **giám sát** và **ghi log** cho
         auth_password: 'your_app_password'  # Thay bằng mật khẩu ứng dụng
         require_tls: true
 ```
-- Link Video: https://youtu.be/PniirnRW7B8
+
+## **Video trình bày kết quả**
+  Video demo: **https://youtu.be/PniirnRW7B8**
